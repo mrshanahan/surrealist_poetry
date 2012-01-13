@@ -1,6 +1,7 @@
 Words separated by parts of speech in poetry_wordlist; parts indicated by
 tags parsed in script.  Running with no arguments produces a single four-line
-poem in a default format:
+poem in a default format (not exactly grammatical, but working on that):
+
 $ python poetry.py
 
 Infernal bomb demolishes by a confounded balloon?
@@ -8,7 +9,6 @@ The exquisite lettuce slaps as a smeared stream;
 Magnanimous quicksand balloos restlessly; utterance:
 The fascist stranger commends through the wayward kitten.
 
-$
 
 One can provide a custom format as the first argument (this will be updated soon):
 
@@ -16,7 +16,17 @@ $ python poetry.py RANVPRAN
 
 A malicious coast cessates for the rapt damnation.
 
-$
 
 I'll try to add in a multiplayer mode ASAP; for now, this will just generate
 random poems.
+
+Format:
+A - adjective
+C - conjunction
+D - adverb
+N - noun
+P - preposition
+R - article
+S - simile conj. (for now, "like" or "as")
+U - punctuation
+V - verb
